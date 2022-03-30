@@ -10,13 +10,13 @@ import Footer from './components/dars1/Footer/Footer'; */
 function App() {
 
   console.log('sssssss')
-  alert('asasd')
+  alert('asasdwwf')
   return (
     <div className="App">
         {/* <Counter/> */}
         <TodoList/>
         {/* <Modal setIsOpen={setOpen} isOpen={open}/> */}
-      
+        <h1>hello world</h1>
     </div>
   );
 }

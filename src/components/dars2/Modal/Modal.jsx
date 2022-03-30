@@ -7,7 +7,7 @@ const handleClick = () =>{
 function Modal(isOpen, setIsOpen){
     const modalClickHandler=()=>{setIsOpen(false)}
      return <div onClick={modalClickHandler} className={`modal ${isOpen ? 'modal--open' : ''}`}>
-       <div className='modal__content'>Modal content</div>
+       <div className='modal__content'>Modal content!</div>
      </div>
    }
 
