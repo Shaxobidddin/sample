@@ -10,6 +10,7 @@ import Footer from './components/dars1/Footer/Footer'; */
 function App() {
 
   console.log('sssssss')
+  alert('asasd')
   return (
     <div className="App">
         {/* <Counter/> */}
